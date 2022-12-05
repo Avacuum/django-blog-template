@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{title}}</title>
-</head>
-<body>
-{% for m in menu %}
-<li>{{m}}</li>
-{% endfor %}
-</body>
-</html>
+{% extends "blog/base.html" %}
+{% block title %}{{ title }}{% endblock title %}
+{% block header %}Главная{% endblock header %}

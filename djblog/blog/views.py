@@ -5,7 +5,7 @@ menu = ['О сайте', 'Добавить статью', 'Обратная св
 
 
 def index(request):
-    return render(request, 'blog/index.html', {'title': 'index', 'menu': menu})
+    return render(request, 'blog/index.html', {'title':'main page'})
 
 
 def about(request):
